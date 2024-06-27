@@ -3,7 +3,7 @@ body {
 }
 
 .container {
-    min-height: 100vh;
+    min-height: 94vh;
     background-color: rgb(44, 44, 167)!important;
     display: flex;
     align-items: center;
@@ -37,4 +37,13 @@ body {
 
 .text-center {
     text-align: center;
+}
+
+.final-headline {
+    font-size: 38px;
+    margin-bottom: 20px;
+}
+
+.progress {
+    --bs-progress-bar-bg:rgba(44, 44, 167, 0.8) !important;
 }
