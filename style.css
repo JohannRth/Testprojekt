@@ -21,3 +21,20 @@ body {
     align-items: center;
     padding-top: 12px;
 }
+
+.quiz-answer-card:hover {
+    cursor: pointer;
+    background-color: rgba(44, 44, 167, 0.4);
+}
+
+.bg-success, .bg-danger {
+    color: white !important;
+}
+
+.width-100 {
+    width: 100%;
+}
+
+.text-center {
+    text-align: center;
+}
