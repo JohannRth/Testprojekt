@@ -2,8 +2,12 @@ body {
     background-color: rgb(44, 44, 167)!important;
 }
 
+.container-fluid {
+    min-height: 5vh;
+}
+
 .container {
-    min-height: 94vh;
+    min-height: 90vh;
     background-color: rgb(44, 44, 167)!important;
     display: flex;
     align-items: center;
@@ -46,4 +50,10 @@ body {
 
 .progress {
     --bs-progress-bar-bg:rgba(44, 44, 167, 0.8) !important;
+}
+
+.button-row {
+    display: flex;
+    justify-content: center;
+    margin-top: 24px;
 }
